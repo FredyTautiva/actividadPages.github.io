@@ -1,6 +1,6 @@
 #main-container {
   margin: 1% auto;
-  width: 50%;
+  width: 70%;
   font-family: FANTASY MAGIST (FANTASY MAGIST), Impact, sans-serif;
   font-size: 90%;
   color: black;
@@ -74,13 +74,7 @@ tr.head th:last-child {
   -moz-border-radius-topright: 5px;
   border-top-right-radius: 5px;
 }
-fieldset {
-  width: 310px;
-  margin-top: 20px;
-  border: 1px solid #d6d6d6;
-  background-color: #ffffff;
-  line-height: 1.6em;
-}
+
 legend {
   font-style: italic;
   color: #666666;
@@ -121,7 +115,6 @@ input[type='submit']:hover {
 }
 
 .form-register{
-	width: 400px;
 	background: #92bae2;
   padding: 30px;
 	margin: 1%;
@@ -136,15 +129,15 @@ input[type='submit']:hover {
     margin-bottom: 30px;
 }
 .controls{
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 3px;
-    margin-bottom: 20px;
-    border:1px solid #637eb9;
-    font-family:'calibri';
-    font-size: 18px;
-    color:white;
+    width: 100%!important;
+    background: #24303c!important;
+    padding: 10px!important; 
+    border-radius: 3px!important;
+    margin-bottom: 20px!important;
+    border:1px solid #637eb9!important;
+    font-family:'calibri'!important;
+    font-size: 18px!important;
+    color:white!important;
 }
 .form-register p {
 	height: 100px;
@@ -168,12 +161,13 @@ input[type='submit']:hover {
 	margin: 35px 0;
 	font-size: 16px;
 } 
-fieldset{
-  margin: 25%;
-}
 
 
 body{
   background-image: url('https://img.freepik.com/vector-gratis/escenario-teatro_1284-12639.jpg');
 
+}
+
+fieldset {
+  border: none;
 }
