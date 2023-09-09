@@ -1,16 +1,37 @@
-body {
-  font-family: Arial, Verdana, sans-serif;
+#main-container {
+  margin: 1% auto;
+  width: 50%;
+  font-family: FANTASY MAGIST (FANTASY MAGIST), Impact, sans-serif;
   font-size: 90%;
-  color: #666;
-  background-color: #f8f8f8;
+  color: black;
+  background-image:url('https://caracoltv.brightspotcdn.com/dims4/default/f3f45c3/2147483647/strip/true/crop/1280x853+0+0/resize/1000x666!/format/webp/quality/90/?url=http%3A%2F%2Fcaracol-brightspot.s3.amazonaws.com%2F20%2F57%2Fa3eb77854b1fa44b880a918c1237%2F5-don-jediondo.png')
 }
+
+h1 {
+  font-size: 300%;
+  font-family: 'FANTASY MAGIST' ;
+  color: rgb(182, 27, 27);
+  margin: 1%;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(40, 33, 33);
+}
+
 li {
   list-style-image: url('../images/icon-plus.png');
   line-height: 1.6em;
+  margin-top: 1%;
+  font-family: 'FANTASY MAGIST' ;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(40, 33, 33);
+  font-size: 150%;
+  
 }
+
 table {
+  margin-top: 10%;
   border-spacing: 0px;
-}
+  width: 100%;
+  }
 th,
 td {
   padding: 5px 30px 5px 10px;
@@ -97,4 +118,62 @@ input[type='submit']:hover {
 .submit {
   width: 310px;
   text-align: right;
+}
+
+.form-register{
+	width: 400px;
+	background: #92bae2;
+  padding: 30px;
+	margin: 1%;
+	margin-top: 2%;
+	border-radius: 5px;
+	font-family: 'fantassi';
+	color :rgb(247, 233, 233);
+	box-shadow: 7px 13px 37px #000;
+}
+.form-register h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    border:1px solid #637eb9;
+    font-family:'calibri';
+    font-size: 18px;
+    color:white;
+}
+.form-register p {
+	height: 100px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+  
+
+}
+.form-register {
+	color: white;
+  margin:left 100%;
+	text-decoration: underline;
+}
+.form-register .botons{
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 20px;
+	color:white;
+	margin: 35px 0;
+	font-size: 16px;
+} 
+fieldset{
+  margin: 25%;
+}
+
+
+body{
+  background-image: url('https://img.freepik.com/vector-gratis/escenario-teatro_1284-12639.jpg');
+
 }
