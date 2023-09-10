@@ -15,7 +15,6 @@
 
 body {
   min-width: 960px;
-  background-color:#178bd4!important;
 }
 
 /* `Containers
@@ -46,7 +45,6 @@ body {
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  
 }
 
 .push_1, .pull_1,
@@ -255,8 +253,7 @@ body {
 }
 
 .container_12 .push_9 {
-  left: 530px;
-  top: 83px;
+  left: 720px;
 }
 
 .container_12 .push_10 {
@@ -352,7 +349,3 @@ body {
 .clearfix {
   zoom: 1;
 }
-
-.header{
-background-color: #178bd4;
-

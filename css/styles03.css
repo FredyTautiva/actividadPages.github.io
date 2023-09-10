@@ -1,0 +1,58 @@
+body{
+    background-image: url('/images/FondoActi3.png'); 
+    background-repeat: no-repeat;  
+}
+
+.main{
+    background-color: #e8eaedd1;
+    width: 90%;
+    margin: 6% 7% auto;
+    font-family: cursive;
+    font-size: 17px;
+    color: hwb(0 0% 100%);
+}
+
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.botonesAccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.botonesAccion li{
+   list-style: none;
+}
+
+.botonesAccion li a{ 
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    text-decoration: none;
+}
+
+
+.botonesAccion li a:hover{ 
+    background-color: white!important;
+    color: black;
+}
+
+
+.informacion{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.bottom{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    z-index: 1;
+}
